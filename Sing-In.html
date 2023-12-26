@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sing In</title>
+        <meta charset="utf-8">
+        <style>
+            html,body{
+                height: 100%;
+                background-image: url('./Projeto-One-Piece/src/imagens/one-piece-anime-artwork-i6-2560x1700.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                
+            }
+         .Sing_In{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            
+         }
+         .form{
+            display: flex;
+            flex-direction: column;
+         }
+         .form input[type=email], input[type=password]{
+            margin: 20px;
+            width: 400px;
+            height: 35px;
+            border-radius: 10px;
+            padding-left: 10px;
+            font-size: 20px;
+         }
+         .form input[type=submit]{
+            height: 35px;
+            width: 400px;
+            margin: 0 auto;
+            border: 0;
+            border-radius: 50px;
+            background-color: blueviolet;
+            color: black;
+            font-size: 25px;
+        
+            
+         }
+
+        </style>
+    </head>
+    <body>
+        <section class="Sing_In">
+        <h2>Sing In</h2>
+        <form class="form">
+            <input type="email" name="text" placeholder="Digite seu e-mail">
+            <input type="password" name="password" placeholder="Digite sua Senha">
+            <input type="submit" value="Entrar">
+        </form>
+        </section>
+    </body>
+</html>

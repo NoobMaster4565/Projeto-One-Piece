@@ -12,6 +12,16 @@ main::after {
   width: 80vw;
   background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0.0) 65%) no-repeat;
 }
+.sing button{
+  width: 200px;
+  height: 50px;
+  font-size: 35px;
+  background-color: orange;
+  color:#000;
+  border: 0;
+  margin: 50px;
+  border-radius: 50px;
+}
 
 main .personagem {
   display: none;
